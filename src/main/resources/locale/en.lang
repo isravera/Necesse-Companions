@@ -1,19 +1,90 @@
-[tile]
-exampletile=Example Tile
+[buff]
+all_damage_buff=Pet Buff: +10% all damage
+armor_buff=Pet Buff: +50 armor
+armor_penetration_buff=Pet Buff: +8 armor penetration
+attack_speed_buff=Pet Buff: +5% attack speed
+critical_chance_buff=Pet Buff: +5% critical chance
+critical_damage_buff=Pet Buff: +10% critical damage
+max_health_buff=Pet Buff: +10% max health
+max_mana_buff=Pet Buff: +100 max mana
+max_resilience_buff=Pet Buff: +10 max resilience
+speed_buff=Pet Buff: +20% movement speed
+swim_speed_buff=Pet Buff: +20% swim speed
 
-[object]
-exampleobject=Example Object
+[global]
+name=§7Necesse Companions
+category0=Pet Ingredients
+category1=All damage +10%
+category2=Armor +50
+category3=Armor penetration +8
+category4=Attack speed +5%
+category5=Critical chance +5%
+category6=Critical damage +10%
+category7=Max health +10%
+category8=Max mana +100
+category9=Max resilience +10
+category10=Speed +20%
+category11=Swim speed +20%
 
 [item]
-exampleitem=Example Item
-examplesword=Example Sword
-examplestaff=Example Staff
-
-[itemtooltip]
-examplestafftip=Shoots a homing, piercing projectile
+pet_certificate=Adoption Certificate
+pet_food=Pet food
+pet_food_meat=Pet food: meat
+pet_food_fruits=Pet food: fruits
+axolotl_pet=Axolotl
+beaver_pet=Beaver
+beet_pet=Curious Beet
+calf_pet=Calf
+capybara_pet=Capybara
+chameleon_pet=Chameleon
+chick_pet=Chick
+dinosaur_pet=Baby Dinosaur
+ferret_pet=Ferret
+lamb_pet=Lamb
+octopus_pet=Octopus
+peacock_pet=Peacock
+piglet_pet=Piglet
+polar_bear_pet=Polar Bear Cub
+porcupine_pet=Porcupine
+raccoon_pet=Raccoon
+radioactive_cat_pet=Radioactive Cat
+red_panda_pet=Red Panda
+turkey_pet=Turkey
+wolf_cub_pet=Wolf Cub
 
 [mob]
-examplemob=Example Mob
+axolotl_pet=Domesticated Axolotl
+beaver_pet=Domesticated Beaver
+beet_pet=Domesticated Beet
+calf_pet=Domesticated Calf
+capybara_pet=Domesticated Capybara
+chameleon_pet=Domesticated Chameleon
+chick_pet=Domesticated Chick
+dinosaur_pet=Domesticated Baby Dinosaur
+ferret_pet=Domesticated Ferret
+lamb_pet=Domesticated Lamb
+octopus_pet=Domesticated Octopus
+peacock_pet=Domesticated Peacock
+piglet_pet=Domesticated Piglet
+polar_bear_pet=Domesticated Polar Bear Cub
+porcupine_pet=Domesticated Porcupine
+raccoon_pet=Domesticated Raccoon
+radioactive_cat_pet=Domesticated Radioactive Cat
+red_panda_pet=Domesticated Red Panda
+turkey_pet=Domesticated Turkey
+wolf_cub_pet=Domesticated Wolf Cub
 
-[buff]
-examplebuff=Example Buff
+[object]
+stone_pet_altar=Pet Altar
+demonic_pet_altar=Demonic Pet Altar
+tungsten_pet_altar=Tungsten Pet Altar
+
+[tech]
+stone_pet_tech=Tier 1 Pets
+demonic_pet_tech=Tier 2 Pets
+tungsten_pet_tech=Tier 3 Pets
+
+[tooltip]
+pet_altar_tip=Allows you to create companions to gain a combat bonus
+pet_certificate_tip=Official permission to own pets, includes Fair's signature
+pet_food_tip=This mix smells so good that even the wildest creatures will go crazy for it

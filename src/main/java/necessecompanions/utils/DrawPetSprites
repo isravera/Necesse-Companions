@@ -1,0 +1,97 @@
+//Code to draw a small pet@Override
+public void addDrawables(List<MobDrawable> list, OrderableDrawables tileList, OrderableDrawables topList, Level level, int x, int y, TickManager tickManager, GameCamera camera, PlayerMob perspective) {
+
+  GameLight light = level.getLightLevel(getTileX(), getTileY());
+
+  // === Draw Calf ===
+  list.add(new MobDrawable() {
+      @Override
+      public void draw(TickManager tickManager) {
+          int drawX = camera.getDrawX(x) - 32;
+          int drawY = camera.getDrawY(y) - 51;
+          drawY += getBobbing(x, y);
+          drawY += level.getTile(getTileX(), getTileY()).getMobSinkingAmount(CalfPetMob.this);
+
+          int dir = getDir();
+
+          Point sprite;
+
+          if (!hasMultipleSprites) { dir = (dir <= 1) ? 1 : 3; }
+
+          sprite = getAnimSprite(x, y, dir);
+
+          texture.initDraw()
+              .sprite(sprite.x, sprite.y, 64)
+              .light(light)
+              .pos(drawX, drawY)
+              .draw();
+      }
+  });
+
+  // === Draw Shadow ===
+  tileList.add(new MobDrawable() {
+      @Override
+      public void draw(TickManager tickManager) {
+          GameTexture shadowTexture = MobRegistry.Textures.human_baby_shadow;
+          int res = shadowTexture.getHeight();
+          int drawX = camera.getDrawX(x) - res / 2;
+          int drawY = camera.getDrawY(y) - res / 2;
+          drawY += getBobbing(x, y);
+
+          shadowTexture.initDraw()
+              .sprite(getDir(), 0, res)
+              .light(light)
+              .pos(drawX, drawY)
+              .draw();
+      }
+  });
+}
+
+//Code to draw a "big" pet
+public void addDrawables(List<MobDrawable> list, OrderableDrawables tileList, OrderableDrawables topList, Level level, int x, int y, TickManager tickManager, GameCamera camera, PlayerMob perspective) {
+    GameLight light = level.getLightLevel(x / 32, y / 32);
+
+    int drawX = camera.getDrawX(x) - 22 - 10;
+    int drawY = camera.getDrawY(y) - 44 - 7;
+    drawY += getBobbing(x, y);
+
+    int dir = getDir();
+    if (!hasMultipleSprites) {
+        dir = (dir <= 1) ? 1 : 3;
+    }
+
+    Point sprite = getAnimSprite(x, y, dir);
+
+    // === Shadow Drawing ===
+    final TextureDrawOptions shadow = MobRegistry.Textures.rooster_shadow
+            .initDraw()
+            .sprite(0, dir, 64)
+            .light(light)
+            .pos(drawX, drawY);
+
+    tileList.add(new MobDrawable() {
+        @Override
+        public void draw(TickManager tickManager) {
+            shadow.draw();
+        }
+    });
+
+    // === Mob Drawing ===
+    drawY += getLevel().getTile(x / 32, y / 32).getMobSinkingAmount(this);
+
+    final MaskShaderOptions swimMask = getSwimMaskShaderOptions(inLiquidFloat(x, y));
+    final DrawOptions options = texture.initDraw()
+            .sprite(sprite.x, sprite.y, 64)
+            .light(light)
+            .addMaskShader(swimMask)
+            .pos(drawX, drawY);
+
+    list.add(new MobDrawable() {
+        @Override
+        public void draw(TickManager tickManager) {
+            swimMask.use();
+            options.draw();
+            swimMask.stop();
+        }
+    });
+}

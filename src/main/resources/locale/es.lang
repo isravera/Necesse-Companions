@@ -1,0 +1,90 @@
+[buff]
+all_damage_buff=Pet Buff: +10% de daño
+armor_buff=Pet Buff: +50 de armadura
+armor_penetration_buff=Pet Buff: +8 de penetración de armadura
+attack_speed_buff=Pet Buff: +5% velocidad de ataque
+critical_chance_buff=Pet Buff: +5% probabilidad de golpe crítico
+critical_damage_buff=Pet Buff: +10% daño crítico
+max_health_buff=Pet Buff: +10% de salud máxima
+max_mana_buff=Pet Buff: +100 de mana máximo
+max_resilience_buff=Pet Buff: +10 de resiliencia máxima
+speed_buff=Pet Buff: +20% velocidad de movimiento
+swim_speed_buff=Pet Buff: +20% velocidad de natación
+
+[global]
+name=§7Necesse Companions
+category0=Ingredientes para mascota
+category1=Daño +10%
+category2=Armadura +50
+category3=Penetración de armadura +8
+category4=Velocidad de ataque +5%
+category5=Probabilidad de golpe crítico +5%
+category6=Daño crítico +10%
+category7=Salud máxima +10%
+category8=Mana máximo +100
+category9=Resiliencia máxima +10
+category10=Velocidad de movimiento +20%
+category11=Velocidad de natación +20%
+
+[item]
+pet_certificate=Certificado de adopción
+pet_food=Comida para mascotas
+pet_food_meat=Comida para mascotas: carne
+pet_food_fruits=Comida para mascotas: frutas
+axolotl_pet=Ajolote
+beaver_pet=Castor
+beet_pet=Remolacha
+calf_pet=Vaquita
+capybara_pet=Capibara
+chameleon_pet=Camaleón
+chick_pet=Pollito
+dinosaur_pet=Dinosaurio bebe
+ferret_pet=Hurón
+lamb_pet=Corderito
+octopus_pet=Pulpo
+peacock_pet=Pavo Real
+piglet_pet=Chanchito
+polar_bear_pet=Cria de Oso Polar
+porcupine_pet=Puerco espín
+raccoon_pet=Mapache
+radioactive_cat_pet=Gato Radioactivo
+red_panda_pet=Panda Rojo
+turkey_pet=Pavo
+wolf_cub_pet=Cria de Lobo
+
+[mob]
+axolotl_pet=Ajolote Domesticado
+beaver_pet=Castor Domesticado
+beet_pet=Remolacha Domesticada
+calf_pet=Vaquita Domesticada
+capybara_pet=Capibara Domesticado
+chameleon_pet=Camaleón Domesticado
+chick_pet=Pollito Domesticado
+dinosaur_pet=Bebe de Dinosaurio Domesticado
+ferret_pet=Hurón Domesticado
+lamb_pet=Corderito Domesticado
+octopus_pet=Pulpo Domesticado
+peacock_pet=Pavo Real Domesticado
+piglet_pet=Chanchito Domesticado
+polar_bear_pet=Cria de Oso Polar Domesticado
+porcupine_pet=Puerco espín Domesticado
+raccoon_pet=Mapache Domesticado
+radioactive_cat_pet=Gato Radioactivo Domesticado
+red_panda_pet=Panda Rojo Domesticado
+turkey_pet=Pavo Domesticado
+wolf_cub_pet=Cria de Lobo Domesticado
+
+[object]
+stone_pet_altar=Altar de Mascotas
+demonic_pet_altar=Altar de Mascotas Demoniaco
+tungsten_pet_altar=Altar de Mascotas de Tungsteno
+
+[tech]
+stone_pet_tech=Mascotas Nivel 1
+demonic_pet_tech=Mascotas Nivel 2
+tungsten_pet_tech=Mascotas Nivel 3
+
+[tooltip]
+pet_altar_tip=Permite crear compañeros para ganar una bonificación de combate
+pet_certificate_tip=Permiso oficial para adoptar mascotas, incluye la firma de Fair
+pet_food_tip=Esta mezcla huele tan bien, que encanta incluso a las criaturas más salvajes

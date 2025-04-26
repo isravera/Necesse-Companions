@@ -9,5 +9,6 @@ build
 .gradle
 
 # Project specific
-steam_appid.txt
+*.txt
 latest-crash.log
+src/main/resources/mobs/*
