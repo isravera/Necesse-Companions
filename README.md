@@ -25,7 +25,7 @@ Create your perfect companion using one of three specialized altars:
 - **Community contributions**: New pet sprites can be added if you have suitable artwork with compatible licensing
 
 ## Installation
-Available on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3471322755)
+Available on [Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3471790985)
 
 ## Credits
 Special thanks to the amazing artists who created the beautiful artwork used by the mod:
