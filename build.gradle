@@ -7,7 +7,7 @@ plugins {
 
 project.ext.modID = "koltuz.necessecompanions" // The unique id of your mod. Must be all lowercase and cannot use special characters.
 project.ext.modName = "Necesse Companions" // The display name of your mod.
-project.ext.modVersion = "1.9" // Your current builds version. Must follow the xx.xx... format.
+project.ext.modVersion = "2.0" // Your current builds version. Must follow the xx.xx... format.
 project.ext.gameVersion = "0.32.1" // The target game version.
 project.ext.modDescription = "The Mod That Enhances Your Adventures With Loyal Pets with Buffs" // Short description of what your mod is.
 project.ext.author = "Koltuz" // Your name

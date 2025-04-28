@@ -34,7 +34,7 @@ Special thanks to the amazing artists who created the beautiful artwork used by 
 - Dinosaur
 
 ### Elthen [Patreon](https://patreon.com/elthen) | [Itch.io](https://elthen.itch.io)
-- Beaver, Chameleon, Ferret, Octopus, Phoenix, Raccoon, Red Panda, and Wolf Cub
+- Beaver, Chameleon, Ferret, Fox Cub, Octopus, Phoenix, Raccoon, Red Panda, and Wolf Cub
 
 ### Ezekyuhl [Itch.io](https://ezekyuhl.itch.io)
 - Turkey

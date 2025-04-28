@@ -106,6 +106,13 @@ public class CustomRecipes {
         ));
 
         Recipes.registerModRecipe(new Recipe(
+            "duck_pet",
+            1,
+            ModEntryPoint.PET_ALTAR_STONE,
+            PetIngredients.Default(2)
+        ));
+
+        Recipes.registerModRecipe(new Recipe(
             "octopus_pet",
             1,
             ModEntryPoint.PET_ALTAR_STONE,
@@ -193,6 +200,14 @@ public class CustomRecipes {
         ));
 
         Recipes.registerModRecipe(new Recipe(
+            "snow_hare_pet",
+            1,
+            ModEntryPoint.PET_ALTAR_DEMONIC,
+            PetIngredients.Fruits(3)
+        ));
+
+
+        Recipes.registerModRecipe(new Recipe(
             "stabby_bush_pet",
             1,
             ModEntryPoint.PET_ALTAR_DEMONIC,
@@ -214,6 +229,13 @@ public class CustomRecipes {
             1,
             ModEntryPoint.PET_ALTAR_TUNGSTEN,
             PetIngredients.Default(5)
+        ));
+
+        Recipes.registerModRecipe(new Recipe(
+            "fox_cub_pet",
+            1,
+            ModEntryPoint.PET_ALTAR_TUNGSTEN,
+            PetIngredients.Meat(5)
         ));
 
         Recipes.registerModRecipe(new Recipe(

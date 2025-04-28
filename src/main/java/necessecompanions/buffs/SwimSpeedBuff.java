@@ -15,7 +15,7 @@ public class SwimSpeedBuff extends VicinityBuff {
     }
 
     public void init(ActiveBuff activeBuff, BuffEventSubscriber subscriber) {
-        activeBuff.setModifier(BuffModifiers.SWIM_SPEED, 0.2F);
+        activeBuff.setModifier(BuffModifiers.SWIM_SPEED, 0.45F);
         activeBuff.setModifier(BuffModifiers.SPEED, 0.2F);
     }
 
