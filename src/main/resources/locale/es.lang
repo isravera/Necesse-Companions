@@ -40,16 +40,20 @@ chameleon_pet=Camaleón
 chick_pet=Pollito
 dinosaur_pet=Dinosaurio bebe
 ferret_pet=Hurón
+honey_bee_pet=Abeja de miel
 lamb_pet=Corderito
 octopus_pet=Pulpo
 peacock_pet=Pavo Real
+phoenix_pet=Ave Fénix
 piglet_pet=Chanchito
 polar_bear_pet=Cria de Oso Polar
 porcupine_pet=Puerco espín
 raccoon_pet=Mapache
 radioactive_cat_pet=Gato Radioactivo
 red_panda_pet=Panda Rojo
+stabby_bush_pet=Arbusto apuñalador
 turkey_pet=Pavo
+turtle_pet=Tortuga
 wolf_cub_pet=Cria de Lobo
 
 [mob]
@@ -62,16 +66,20 @@ chameleon_pet=Camaleón Domesticado
 chick_pet=Pollito Domesticado
 dinosaur_pet=Bebe de Dinosaurio Domesticado
 ferret_pet=Hurón Domesticado
+honey_bee_pet=Abeja de miel Domesticada
 lamb_pet=Corderito Domesticado
 octopus_pet=Pulpo Domesticado
 peacock_pet=Pavo Real Domesticado
+phoenix_pet=Ave Fénix Domesticada
 piglet_pet=Chanchito Domesticado
 polar_bear_pet=Cria de Oso Polar Domesticado
 porcupine_pet=Puerco espín Domesticado
 raccoon_pet=Mapache Domesticado
 radioactive_cat_pet=Gato Radioactivo Domesticado
 red_panda_pet=Panda Rojo Domesticado
+stabby_bush_pet=Arbusto apuñalador Domesticado
 turkey_pet=Pavo Domesticado
+turtle_pet=Tortuga Domesticada
 wolf_cub_pet=Cria de Lobo Domesticado
 
 [object]

@@ -89,16 +89,20 @@ public class InitRegistry {
         ItemRegistry.registerItem("chick_pet", new PetSummoningItem("chick_pet", CustomCategories.Armor), VENDOR_PRICE, true);
         ItemRegistry.registerItem("dinosaur_pet", new PetSummoningItem("dinosaur_pet", CustomCategories.maxresilience), VENDOR_PRICE, true);
         ItemRegistry.registerItem("ferret_pet", new PetSummoningItem("ferret_pet", CustomCategories.AttackSpeed), VENDOR_PRICE, true);
+        ItemRegistry.registerItem("honey_bee_pet", new PetSummoningItem("honey_bee_pet", CustomCategories.AttackSpeed), VENDOR_PRICE, true);
         ItemRegistry.registerItem("lamb_pet", new PetSummoningItem("lamb_pet", CustomCategories.Armor), VENDOR_PRICE, true);
         ItemRegistry.registerItem("octopus_pet", new PetSummoningItem("octopus_pet", CustomCategories.SwimSpeed), VENDOR_PRICE, true);
         ItemRegistry.registerItem("peacock_pet", new PetSummoningItem("peacock_pet", CustomCategories.AllDamage), VENDOR_PRICE, true);
+        ItemRegistry.registerItem("phoenix_pet", new PetSummoningItem("phoenix_pet", CustomCategories.CriticalDamage), VENDOR_PRICE, true);
         ItemRegistry.registerItem("piglet_pet", new PetSummoningItem("piglet_pet", CustomCategories.Armor), VENDOR_PRICE, true);
         ItemRegistry.registerItem("polar_bear_pet", new PetSummoningItem("polar_bear_pet", CustomCategories.MaxResilience), VENDOR_PRICE, true);
         ItemRegistry.registerItem("porcupine_pet", new PetSummoningItem("porcupine_pet", CustomCategories.ArmorPenetration), VENDOR_PRICE, true);
         ItemRegistry.registerItem("radioactive_cat_pet", new PetSummoningItem("radioactive_cat_pet", CustomCategories.ArmorPenetration), VENDOR_PRICE, true);
         ItemRegistry.registerItem("raccoon_pet", new PetSummoningItem("raccoon_pet", CustomCategories.AttackSpeed), VENDOR_PRICE, true);
         ItemRegistry.registerItem("red_panda_pet", new PetSummoningItem("red_panda_pet", CustomCategories.CriticalChance), VENDOR_PRICE, true);
+        ItemRegistry.registerItem("stabby_bush_pet", new PetSummoningItem("stabby_bush_pet", CustomCategories.CriticalChance), VENDOR_PRICE, true);
         ItemRegistry.registerItem("turkey_pet", new PetSummoningItem("turkey_pet", CustomCategories.MaxHealth), VENDOR_PRICE, true);
+        ItemRegistry.registerItem("turtle_pet", new PetSummoningItem("turtle_pet", CustomCategories.MaxMana), VENDOR_PRICE, true);
         ItemRegistry.registerItem("wolf_cub_pet", new PetSummoningItem("wolf_cub_pet", CustomCategories.AllDamage), VENDOR_PRICE, true);
     }
 
@@ -117,16 +121,20 @@ public class InitRegistry {
         MobRegistry.registerMob("radioactive_cat_pet", RadioactiveCatPetMob.class, false);
         //Attack Speed
         MobRegistry.registerMob("ferret_pet", FerretPetMob.class, false);
+        MobRegistry.registerMob("honey_bee_pet", HoneyBeePetMob.class, false);
         MobRegistry.registerMob("raccoon_pet", RaccoonPetMob.class, false);
         //Critical Chance
         MobRegistry.registerMob("red_panda_pet", RedPandaPetMob.class, false);
+        MobRegistry.registerMob("stabby_bush_pet", StabbyBushPetMob.class, false);
         //Critical Damage
         MobRegistry.registerMob("chameleon_pet", ChameleonPetMob.class, false);
+        MobRegistry.registerMob("phoenix_pet", PhoenixPetMob.class, false);
         //Max Health
         MobRegistry.registerMob("beet_pet", BeetPetMob.class, false);
         MobRegistry.registerMob("turkey_pet", TurkeyPetMob.class, false);
         //Max Mana
         MobRegistry.registerMob("capybara_pet", CapybaraPetMob.class, false);
+        MobRegistry.registerMob("turtle_pet", TurtlePetMob.class, false);
         //Max Resilience
         MobRegistry.registerMob("beaver_pet", BeaverPetMob.class, false);
         MobRegistry.registerMob("dinosaur_pet", DinosaurPetMob.class, false);

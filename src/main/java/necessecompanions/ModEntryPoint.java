@@ -65,6 +65,9 @@ public class ModEntryPoint {
         FerretPetMob.texture = GameTexture.fromFile("mobs/ferret_pet");
         FerretPetMob.hasMultipleSprites = false;
 
+        HoneyBeePetMob.texture = MobRegistry.Textures.honeyBee.body;
+        HoneyBeePetMob.hasMultipleSprites = true;
+
         LambPetMob.texture = MobRegistry.Textures.lamb;
         LambPetMob.hasMultipleSprites = true;
 
@@ -73,6 +76,9 @@ public class ModEntryPoint {
 
         PeacockPetMob.texture = GameTexture.fromFile("mobs/peacock_pet");
         PeacockPetMob.hasMultipleSprites = true;
+
+        PhoenixPetMob.texture = GameTexture.fromFile("mobs/phoenix_pet");
+        PhoenixPetMob.hasMultipleSprites = false;
 
         PigletPetMob.texture = MobRegistry.Textures.piglet;
         PigletPetMob.hasMultipleSprites = true;
@@ -92,8 +98,14 @@ public class ModEntryPoint {
         RedPandaPetMob.texture = GameTexture.fromFile("mobs/red_panda_pet");
         RedPandaPetMob.hasMultipleSprites = false;
 
+        StabbyBushPetMob.texture = MobRegistry.Textures.stabbyBush.body;
+        StabbyBushPetMob.hasMultipleSprites = true;
+
         TurkeyPetMob.texture = GameTexture.fromFile("mobs/turkey_pet");
         TurkeyPetMob.hasMultipleSprites = true;
+
+        TurtlePetMob.texture = MobRegistry.Textures.turtle.body;
+        TurtlePetMob.hasMultipleSprites = true;
 
         WolfCubPetMob.texture = GameTexture.fromFile("mobs/wolf_cub_pet");
         WolfCubPetMob.hasMultipleSprites = false;

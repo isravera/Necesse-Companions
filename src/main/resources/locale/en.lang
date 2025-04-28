@@ -40,16 +40,20 @@ chameleon_pet=Chameleon
 chick_pet=Chick
 dinosaur_pet=Baby Dinosaur
 ferret_pet=Ferret
+honey_bee_pet=Bee
 lamb_pet=Lamb
 octopus_pet=Octopus
 peacock_pet=Peacock
+phoenix_pet=Phoenix
 piglet_pet=Piglet
 polar_bear_pet=Polar Bear Cub
 porcupine_pet=Porcupine
 raccoon_pet=Raccoon
 radioactive_cat_pet=Radioactive Cat
 red_panda_pet=Red Panda
+stabby_bush_pet=Stabby Bush
 turkey_pet=Turkey
+turtle_pet=Turtle
 wolf_cub_pet=Wolf Cub
 
 [mob]
@@ -62,16 +66,20 @@ chameleon_pet=Domesticated Chameleon
 chick_pet=Domesticated Chick
 dinosaur_pet=Domesticated Baby Dinosaur
 ferret_pet=Domesticated Ferret
+honey_bee_pet=Domesticated Bee
 lamb_pet=Domesticated Lamb
 octopus_pet=Domesticated Octopus
 peacock_pet=Domesticated Peacock
+phoenix_pet=Domesticated Phoenix
 piglet_pet=Domesticated Piglet
 polar_bear_pet=Domesticated Polar Bear Cub
 porcupine_pet=Domesticated Porcupine
 raccoon_pet=Domesticated Raccoon
 radioactive_cat_pet=Domesticated Radioactive Cat
 red_panda_pet=Domesticated Red Panda
+stabby_bush_pet=Domesticated Stabby Bush
 turkey_pet=Domesticated Turkey
+turtle_pet=Domesticated Turtle
 wolf_cub_pet=Domesticated Wolf Cub
 
 [object]
