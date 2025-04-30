@@ -106,6 +106,13 @@ public class CustomRecipes {
         ));
 
         Recipes.registerModRecipe(new Recipe(
+            "doe_pet",
+            1,
+            ModEntryPoint.PET_ALTAR_STONE,
+            PetIngredients.Default(2)
+        ));
+
+        Recipes.registerModRecipe(new Recipe(
             "duck_pet",
             1,
             ModEntryPoint.PET_ALTAR_STONE,
@@ -121,6 +128,13 @@ public class CustomRecipes {
 
         Recipes.registerModRecipe(new Recipe(
             "lamb_pet",
+            1,
+            ModEntryPoint.PET_ALTAR_STONE,
+            PetIngredients.Default(2)
+        ));
+
+        Recipes.registerModRecipe(new Recipe(
+            "penguin_pet",
             1,
             ModEntryPoint.PET_ALTAR_STONE,
             PetIngredients.Default(2)
@@ -226,6 +240,13 @@ public class CustomRecipes {
     public static void registerTier3Companions() {
         Recipes.registerModRecipe(new Recipe(
             "chameleon_pet",
+            1,
+            ModEntryPoint.PET_ALTAR_TUNGSTEN,
+            PetIngredients.Default(5)
+        ));
+
+        Recipes.registerModRecipe(new Recipe(
+            "deer_pet",
             1,
             ModEntryPoint.PET_ALTAR_TUNGSTEN,
             PetIngredients.Default(5)

@@ -39,6 +39,9 @@ Special thanks to the amazing artists who created the beautiful artwork used by 
 ### Ezekyuhl [Itch.io](https://ezekyuhl.itch.io)
 - Turkey
 
+### LYASeeK [Itch.io](https://lyaseek.itch.io)
+- Deer and Doe
+
 ### Pixeline [Itch.io](https://pixeline-k.itch.io)
 - Porcupine and Peacock
 

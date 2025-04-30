@@ -20,7 +20,7 @@ public class ChameleonPetMob extends AbstractCompanionMob {
     public static boolean hasMultipleSprites;
 
     public ChameleonPetMob() {
-        super(100, ModEntryPoint.ATTACK_SPEED_BUFF);
+        super(100, ModEntryPoint.CRITICAL_DAMAGE_BUFF);
     }
 
     @Override

@@ -3,7 +3,6 @@ package necessecompanions.utils;
 import necesse.engine.localization.message.GameMessage;
 import necesse.engine.localization.message.LocalMessage;
 import necesse.engine.registries.*;
-import necesse.inventory.item.Item.Rarity;
 import necesse.inventory.item.ItemCategory;
 import necessecompanions.ModEntryPoint;
 import necessecompanions.buffs.*;
@@ -85,9 +84,11 @@ public class InitRegistry {
         ItemRegistry.registerItem("beet_pet", new PetSummoningItem("beet_pet", CustomCategories.MaxHealth), VENDOR_PRICE, true);
         ItemRegistry.registerItem("calf_pet", new PetSummoningItem("calf_pet", CustomCategories.Armor), VENDOR_PRICE, true);
         ItemRegistry.registerItem("capybara_pet", new PetSummoningItem("capybara_pet", CustomCategories.MaxMana), VENDOR_PRICE, true);
-        ItemRegistry.registerItem("chameleon_pet", new PetSummoningItem("chameleon_pet", CustomCategories.critdamage), VENDOR_PRICE, true);
+        ItemRegistry.registerItem("chameleon_pet", new PetSummoningItem("chameleon_pet", CustomCategories.CriticalDamage), VENDOR_PRICE, true);
         ItemRegistry.registerItem("chick_pet", new PetSummoningItem("chick_pet", CustomCategories.Armor), VENDOR_PRICE, true);
-        ItemRegistry.registerItem("dinosaur_pet", new PetSummoningItem("dinosaur_pet", CustomCategories.maxresilience), VENDOR_PRICE, true);
+        ItemRegistry.registerItem("deer_pet", new PetSummoningItem("deer_pet", CustomCategories.ArmorPenetration), VENDOR_PRICE, true);
+        ItemRegistry.registerItem("dinosaur_pet", new PetSummoningItem("dinosaur_pet", CustomCategories.MaxResilience), VENDOR_PRICE, true);
+        ItemRegistry.registerItem("doe_pet", new PetSummoningItem("doe_pet", CustomCategories.MaxHealth), VENDOR_PRICE, true);
         ItemRegistry.registerItem("duck_pet", new PetSummoningItem("duck_pet", CustomCategories.SwimSpeed), VENDOR_PRICE, true);
         ItemRegistry.registerItem("ferret_pet", new PetSummoningItem("ferret_pet", CustomCategories.AttackSpeed), VENDOR_PRICE, true);
         ItemRegistry.registerItem("fox_cub_pet", new PetSummoningItem("fox_cub_pet", CustomCategories.ArmorPenetration), VENDOR_PRICE, true);
@@ -95,6 +96,7 @@ public class InitRegistry {
         ItemRegistry.registerItem("lamb_pet", new PetSummoningItem("lamb_pet", CustomCategories.Armor), VENDOR_PRICE, true);
         ItemRegistry.registerItem("octopus_pet", new PetSummoningItem("octopus_pet", CustomCategories.SwimSpeed), VENDOR_PRICE, true);
         ItemRegistry.registerItem("peacock_pet", new PetSummoningItem("peacock_pet", CustomCategories.AllDamage), VENDOR_PRICE, true);
+        ItemRegistry.registerItem("penguin_pet", new PetSummoningItem("penguin_pet", CustomCategories.SwimSpeed), VENDOR_PRICE, true);
         ItemRegistry.registerItem("phoenix_pet", new PetSummoningItem("phoenix_pet", CustomCategories.CriticalDamage), VENDOR_PRICE, true);
         ItemRegistry.registerItem("piglet_pet", new PetSummoningItem("piglet_pet", CustomCategories.Armor), VENDOR_PRICE, true);
         ItemRegistry.registerItem("polar_bear_pet", new PetSummoningItem("polar_bear_pet", CustomCategories.MaxResilience), VENDOR_PRICE, true);
@@ -120,6 +122,7 @@ public class InitRegistry {
         MobRegistry.registerMob("lamb_pet", LambPetMob.class, false);
         MobRegistry.registerMob("piglet_pet", PigletPetMob.class, false);
         //Armor Penetration
+        MobRegistry.registerMob("deer_pet", DeerPetMob.class, false);
         MobRegistry.registerMob("fox_cub_pet", FoxCubPetMob.class, false);
         MobRegistry.registerMob("porcupine_pet", PorcupinePetMob.class, false);
         MobRegistry.registerMob("radioactive_cat_pet", RadioactiveCatPetMob.class, false);
@@ -135,6 +138,7 @@ public class InitRegistry {
         MobRegistry.registerMob("phoenix_pet", PhoenixPetMob.class, false);
         //Max Health
         MobRegistry.registerMob("beet_pet", BeetPetMob.class, false);
+        MobRegistry.registerMob("doe_pet", DoePetMob.class, false);
         MobRegistry.registerMob("turkey_pet", TurkeyPetMob.class, false);
         //Max Mana
         MobRegistry.registerMob("capybara_pet", CapybaraPetMob.class, false);
@@ -148,6 +152,7 @@ public class InitRegistry {
         MobRegistry.registerMob("axolotl_pet", AxolotlPetMob.class, false);
         MobRegistry.registerMob("duck_pet", DuckPetMob.class, false);
         MobRegistry.registerMob("octopus_pet", OctopusPetMob.class, false);
+        MobRegistry.registerMob("penguin_pet", PenguinPetMob.class, false);
 
     }
 

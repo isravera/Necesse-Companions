@@ -18,7 +18,7 @@ public class CompanionPet extends PetFollowingMob {
     public CompanionPet(int maxHealth, Buff buff) {
         super(maxHealth);
         this.buff = (mob) -> buff;
-        setSpeed(200.0F);
+        setSpeed(300.0F);
         setFriction(2.0F);
         moveAccuracy  = 10;
 

@@ -59,8 +59,14 @@ public class ModEntryPoint {
         ChickPetMob.texture = MobRegistry.Textures.chick;
         ChickPetMob.hasMultipleSprites = true;
 
+        DeerPetMob.texture = GameTexture.fromFile("mobs/deer_pet");
+        DeerPetMob.hasMultipleSprites = false;
+
         DinosaurPetMob.texture = GameTexture.fromFile("mobs/dinosaur_pet");
         DinosaurPetMob.hasMultipleSprites = false;
+
+        DoePetMob.texture = GameTexture.fromFile("mobs/doe_pet");
+        DoePetMob.hasMultipleSprites = false;
 
         DuckPetMob.texture = MobRegistry.Textures.duck.body;
         DuckPetMob.hasMultipleSprites = true;
@@ -82,6 +88,9 @@ public class ModEntryPoint {
 
         PeacockPetMob.texture = GameTexture.fromFile("mobs/peacock_pet");
         PeacockPetMob.hasMultipleSprites = true;
+
+        PenguinPetMob.texture = MobRegistry.Textures.penguin;
+        PenguinPetMob.hasMultipleSprites = true;
 
         PhoenixPetMob.texture = GameTexture.fromFile("mobs/phoenix_pet");
         PhoenixPetMob.hasMultipleSprites = false;

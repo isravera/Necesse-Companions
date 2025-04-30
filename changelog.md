@@ -1,5 +1,18 @@
 
 ------------------------------------------------------
+Mod version 2.1 for game version 0.32.1 | 2025-04-30
+------------------------------------------------------
+
+Increased companion base movement speed from 200 to 300
+Fixed Chameleon Buff
+
+Added 3 new craftable companion:
+
+- Deer (armor penetration)
+- Doe (max health)
+- Penguin (swim speed)
+
+------------------------------------------------------
 Mod version 2.0 for game version 0.32.1 | 2025-04-28
 ------------------------------------------------------
 
