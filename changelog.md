@@ -1,3 +1,19 @@
+------------------------------------------------------
+Mod version 2.3 for game version 0.33.0 | 2025-07-21
+------------------------------------------------------
+
+Added a new craftable companion:
+
+- Goat (armor penetration)
+
+------------------------------------------------------
+Mod version 2.2 for game version 0.32.1 | 2025-05-0
+------------------------------------------------------
+
+Added 2 new craftable companion:
+
+- Armadillo (armor)
+- Squirrel (critical chance)
 
 ------------------------------------------------------
 Mod version 2.1 for game version 0.32.1 | 2025-04-30

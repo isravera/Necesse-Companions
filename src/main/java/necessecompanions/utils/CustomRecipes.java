@@ -220,6 +220,12 @@ public class CustomRecipes {
             PetIngredients.Fruits(3)
         ));
 
+        Recipes.registerModRecipe(new Recipe(
+                "squirrel_pet",
+                1,
+                ModEntryPoint.PET_ALTAR_DEMONIC,
+                PetIngredients.Default(3)
+        ));
 
         Recipes.registerModRecipe(new Recipe(
             "stabby_bush_pet",
@@ -257,6 +263,13 @@ public class CustomRecipes {
             1,
             ModEntryPoint.PET_ALTAR_TUNGSTEN,
             PetIngredients.Meat(5)
+        ));
+
+        Recipes.registerModRecipe(new Recipe(
+            "goat_pet",
+            1,
+            ModEntryPoint.PET_ALTAR_TUNGSTEN,
+            PetIngredients.Default(5)
         ));
 
         Recipes.registerModRecipe(new Recipe(

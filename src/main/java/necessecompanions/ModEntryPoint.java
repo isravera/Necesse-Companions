@@ -77,6 +77,9 @@ public class ModEntryPoint {
         FoxCubPetMob.texture = GameTexture.fromFile("mobs/fox_cub_pet");
         FoxCubPetMob.hasMultipleSprites = false;
 
+        GoatPetMob.texture = GameTexture.fromFile("mobs/goat_pet");
+        GoatPetMob.hasMultipleSprites = true;
+
         HoneyBeePetMob.texture = MobRegistry.Textures.honeyBee.body;
         HoneyBeePetMob.hasMultipleSprites = true;
 
@@ -115,6 +118,9 @@ public class ModEntryPoint {
 
         SnowHarePetMob.texture = MobRegistry.Textures.snowHare;
         SnowHarePetMob.hasMultipleSprites = true;
+
+        SquirrelPetMob.texture = MobRegistry.Textures.squirrel;
+        SquirrelPetMob.hasMultipleSprites = true;
 
         StabbyBushPetMob.texture = MobRegistry.Textures.stabbyBush.body;
         StabbyBushPetMob.hasMultipleSprites = true;

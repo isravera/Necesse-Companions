@@ -34,7 +34,7 @@ Special thanks to the amazing artists who created the beautiful artwork used by 
 - Dinosaur
 
 ### Elthen [Patreon](https://patreon.com/elthen) | [Itch.io](https://elthen.itch.io)
-- Beaver, Chameleon, Ferret, Fox Cub, Octopus, Phoenix, Raccoon, Red Panda, and Wolf Cub
+- Armadillo, Beaver, Chameleon, Ferret, Fox Cub, Octopus, Phoenix, Raccoon, Red Panda, and Wolf Cub
 
 ### Ezekyuhl [Itch.io](https://ezekyuhl.itch.io)
 - Turkey
@@ -51,8 +51,11 @@ Special thanks to the amazing artists who created the beautiful artwork used by 
 ### Rainloaf [Itch.io](https://rainloaf.itch.io)
 - Capybara
 
+### VectoRaith [Itch.io](https://vectoraith.itch.io)
+- Goat
+
 ## Contributing
-If you have pet sprites you'd like to see added to the mod, feel free to reach out! (@Koltuz#7044 | Necesse Official Discord) I'm always looking to expand the collection, but please note I can only include artwork with appropriate licensing permissions.
+If you have pet sprites you'd like to see added to the mod, feel free to reach out! (@Koltuz#7044 | [Necesse Official Discord](https://discord.gg/FAFgrKD)) I'm always looking to expand the collection, but please note I can only include artwork with appropriate licensing permissions.
 
 ## License
 Pet artwork remains property of original creators as credited.
