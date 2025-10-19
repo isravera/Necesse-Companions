@@ -44,6 +44,6 @@ public class PenguinPetMob extends AbstractCompanionMob {
                 swimMask.stop();
             }
         });
-        this.addShadowDrawables(tileList, x, y, light, camera);
+        this.addShadowDrawables(tileList, level, x, y, light, camera);
     }
 }
