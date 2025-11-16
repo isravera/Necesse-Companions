@@ -1,0 +1,135 @@
+# Traduction réalisée par Caranud (https://steamcommunity.com/id/Caranud/)
+# Version de mod : 2.4 [19/10/25]
+# Version de jeu : 1.0.1 [17/10/25] (testé fonctionnel sur la 1.0.2)
+# Date de la dernière traduction : 16/11/2025
+# Note de Caranud : n’hésitez pas à reprendre cette traduction si je ne suis plus actif et disponible depuis un moment ! :) Je suis également sur le serveur Discord (https://discord.com/invite/HSvuUuA).
+
+[buff]
+all_damage_buff=Bonus de compagnon puissant : dégâts +10%
+armor_buff=Bonus de compagnon coriace : armure +50
+armor_penetration_buff=Bonus de compagnon acéré : pénétration d’armure +8
+attack_speed_buff=Bonus de compagnon agile : vitesse d’attaque +5 %
+critical_chance_buff=Bonus de compagnon précis : chances de critique +5 %
+critical_damage_buff=Bonus de compagnon ravageur : dégâts critiques +10 %
+max_health_buff=Bonus de compagnon vigoureux : santé maximum +10 %
+max_mana_buff=Bonus de compagnon mystique : mana maximum +100
+max_resilience_buff=Bonus de compagnon gardien : résilience maximum +10
+speed_buff=Bonus de compagnon rapide : vitesse de mouvement +20 %
+swim_speed_buff=Bonus de compagnon aquatique : vitesse de nage +45 %
+
+[global]
+name=§7Compagnons de Necesse
+itemcategory.compagnions=§7Compagnons de Necesse
+category0=Ingrédients pour compagnon
+// ??
+category1=Puissants [dégâts +10%]
+itemcategory.alldamage=Puissants [dégâts +10%]
+category2=Coriaces [armure +50]
+// Bug sur celle-ci !
+category3=Acérés [pénétration d’armure +8]
+itemcategory.arpen=Acérés [pénétration d’armure +8]
+category4=Agiles [vitesse d’attaque +5 %]
+itemcategory.attackspeed=Agiles [vitesse d’attaque +5 %]
+category5=Précis [chances de critique  +5%]
+itemcategory.critchance=Précis [chances de critique +5%]
+category6=Ravageurs [dégâts critiques +10%]
+itemcategory.critdamage=Ravageurs [dégâts critiques +10%]
+category7=Vigoureux [santé maximum +10 %]
+itemcategory.maxhealth=Vigoureux [santé maximum +10 %]
+category8=Mystiques [mana maximum +100]
+itemcategory.maxmana=Mystiques [mana maximum +100]
+category9=Gardiens [résilience maximum +10]
+itemcategory.maxresilience=Gardiens [résilience maximum +10]
+category10=Rapides [vitesse de mouvement +20 %]
+// ???
+category11=Aquatiques [vitesse de nage +45 %]
+itemcategory.swimspeed=Aquatiques [vitesse de nage +45 %]
+
+[item]
+pet_certificate=Certificat d’adoption
+pet_food=Nourriture pour compagnon (sucrée)
+pet_food_meat=Nourriture pour compagnon (à la viande)
+pet_food_fruits=Nourriture pour compagnon (fruitée)
+armadillo_pet=Tatou
+axolotl_pet=Axolotl
+beaver_pet=Castor
+beet_pet=Betterave étrange
+calf_pet=Veau
+capybara_pet=Capybara
+chameleon_pet=Caméléon
+chick_pet=Poussin
+deer_pet=Cerf
+dinosaur_pet=Bébé dinosaure
+doe_pet=Biche
+duck_pet=Canard
+ferret_pet=Furet
+fox_cub_pet=Renardeau
+goat_pet=Chèvre
+honey_bee_pet=Abeille
+lamb_pet=Agneau
+octopus_pet=Poulpe
+peacock_pet=Paon
+penguin_pet=Pingouin
+phoenix_pet=Phénix
+piglet_pet=Porcelet
+polar_bear_pet=Ours polaire
+porcupine_pet=Porc-épic
+raccoon_pet=Raton laveur
+radioactive_cat_pet=Chat radioactif
+red_panda_pet=Panda roux
+snow_hare_pet=Lièvre des neiges
+squirrel_pet=Écureuil
+stabby_bush_pet=Buisson tranchant
+turkey_pet=Dinde
+turtle_pet=Tortue
+wolf_cub_pet=Louveteau
+
+[mob]
+armadillo_pet=Tatou apprivoisé
+axolotl_pet=Axolotl apprivoisé
+beaver_pet=Castor apprivoisé
+beet_pet=Betterave étrange apprivoisée
+calf_pet=Veau apprivoisé
+capybara_pet=Capybara apprivoisé
+chameleon_pet=Caméléon apprivoisé
+chick_pet=Poussin apprivoisé
+deer_pet=Cerf apprivoisé
+dinosaur_pet=Bébé dinosaure apprivoisé
+doe_pet=Biche apprivoisée
+duck_pet=Canard apprivoisé
+ferret_pet=Furet apprivoisé
+fox_cub_pet=Renardeau apprivoisé
+goat_pet=Chèvre apprivoisée
+honey_bee_pet=Abeille apprivoisée
+lamb_pet=Agneau apprivoisé
+octopus_pet=Poulpe apprivoisé
+peacock_pet=Paon apprivoisé
+penguin_pet=Pingouin apprivoisé
+phoenix_pet=Phénix apprivoisé
+piglet_pet=Porcelet apprivoisé
+polar_bear_pet=Ours polaire apprivoisé
+porcupine_pet=Porc-épic apprivoisé
+raccoon_pet=Raton laveur apprivoisé
+radioactive_cat_pet=Chat radioactif apprivoisé
+red_panda_pet=Panda roux apprivoisé
+snow_hare_pet=Lièvre des neiges apprivoisé
+squirrel_pet=Écureuil apprivoisé
+stabby_bush_pet=Buisson épineux apprivoisé
+turkey_pet=Dinde apprivoisée
+turtle_pet=Tortue apprivoisée
+wolf_cub_pet=Louveteau apprivoisé
+
+[object]
+stone_pet_altar=Autel des compagnons animaux
+demonic_pet_altar=Autel démoniaque des compagnons animaux
+tungsten_pet_altar=Autel en tungstène des compagnons animaux
+
+[tech]
+stone_pet_tech=Animaux de rang 1
+demonic_pet_tech=Animaux de rang 2
+tungsten_pet_tech=Animaux de rang 3
+
+[tooltip]
+pet_altar_tip=Vous permet d’invoquer de manière permanente des compagnons, ce qui vous offre un bonus de combat.
+pet_certificate_tip=Permission officielle de posséder un animal.\nSigné par Fair en personne !
+pet_food_tip=Ce mélange sent tellement bon que même les créatures les plus sauvages s’approcheront de vous.
