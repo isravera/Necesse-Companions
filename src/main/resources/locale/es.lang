@@ -65,6 +65,20 @@ turkey_pet=Pavo
 turtle_pet=Tortuga
 wolf_cub_pet=Cria de Lobo
 
+[itemcategory]
+companions=Necesse Companions
+alldamage=Daño +10%
+armor=Armadura +50
+arpen=Penetración de armadura +8
+attackspeed=Velocidad de ataque +5%
+critchance=Probabilidad de golpe crítico +5%
+critdamage=Daño crítico +10%
+maxhealth=Salud máxima +10%
+maxmana=Mana máximo +100
+maxresilience=Resiliencia máxima +10
+speed=Velocidad de movimiento +20%
+swimspeed=Velocidad de natación +45%
+
 [mob]
 armadillo_pet=Armadillo Domesticado
 axolotl_pet=Ajolote Domesticado

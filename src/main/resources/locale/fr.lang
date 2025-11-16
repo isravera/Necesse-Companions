@@ -1,5 +1,5 @@
 # Traduction réalisée par Caranud (https://steamcommunity.com/id/Caranud/)
-# Version de mod : 2.4 [19/10/25]
+# Version de mod : 2.5 [19/10/25]
 # Version de jeu : 1.0.1 [17/10/25] (testé fonctionnel sur la 1.0.2)
 # Date de la dernière traduction : 16/11/2025
 # Note de Caranud : n’hésitez pas à reprendre cette traduction si je ne suis plus actif et disponible depuis un moment ! :) Je suis également sur le serveur Discord (https://discord.com/invite/HSvuUuA).
@@ -18,32 +18,19 @@ speed_buff=Bonus de compagnon rapide : vitesse de mouvement +20 %
 swim_speed_buff=Bonus de compagnon aquatique : vitesse de nage +45 %
 
 [global]
-name=§7Compagnons de Necesse
-itemcategory.compagnions=§7Compagnons de Necesse
+name=§7Necesse Companions
 category0=Ingrédients pour compagnon
-// ??
 category1=Puissants [dégâts +10%]
-itemcategory.alldamage=Puissants [dégâts +10%]
 category2=Coriaces [armure +50]
-// Bug sur celle-ci !
 category3=Acérés [pénétration d’armure +8]
-itemcategory.arpen=Acérés [pénétration d’armure +8]
 category4=Agiles [vitesse d’attaque +5 %]
-itemcategory.attackspeed=Agiles [vitesse d’attaque +5 %]
 category5=Précis [chances de critique  +5%]
-itemcategory.critchance=Précis [chances de critique +5%]
 category6=Ravageurs [dégâts critiques +10%]
-itemcategory.critdamage=Ravageurs [dégâts critiques +10%]
 category7=Vigoureux [santé maximum +10 %]
-itemcategory.maxhealth=Vigoureux [santé maximum +10 %]
 category8=Mystiques [mana maximum +100]
-itemcategory.maxmana=Mystiques [mana maximum +100]
 category9=Gardiens [résilience maximum +10]
-itemcategory.maxresilience=Gardiens [résilience maximum +10]
 category10=Rapides [vitesse de mouvement +20 %]
-// ???
 category11=Aquatiques [vitesse de nage +45 %]
-itemcategory.swimspeed=Aquatiques [vitesse de nage +45 %]
 
 [item]
 pet_certificate=Certificat d’adoption
@@ -83,6 +70,20 @@ stabby_bush_pet=Buisson tranchant
 turkey_pet=Dinde
 turtle_pet=Tortue
 wolf_cub_pet=Louveteau
+
+[itemcategory]
+companions=Necesse Companions
+alldamage=Puissants [dégâts +10%]
+armor=Coriaces [armure +50]
+arpen=Acérés [pénétration d’armure +8]
+attackspeed=Agiles [vitesse d’attaque +5 %]
+critchance=Précis [chances de critique  +5%]
+critdamage=Ravageurs [dégâts critiques +10%]
+maxhealth=Vigoureux [santé maximum +10 %]
+maxmana=Mystiques [mana maximum +100]
+maxresilience=Gardiens [résilience maximum +10]
+speed=Rapides [vitesse de mouvement +20 %]
+swimspeed=Aquatiques [vitesse de nage +45 %]
 
 [mob]
 armadillo_pet=Tatou apprivoisé

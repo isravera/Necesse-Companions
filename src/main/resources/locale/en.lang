@@ -65,6 +65,20 @@ turkey_pet=Turkey
 turtle_pet=Turtle
 wolf_cub_pet=Wolf Cub
 
+[itemcategory]
+companions=Necesse Companions
+alldamage=All damage +10%
+armor=Armor +50
+arpen=Armor penetration +8
+attackspeed=Attack speed +5%
+critchance=Critical chance +5%
+critdamage=Critical damage +10%
+maxhealth=Max health +10%
+maxmana=Max mana +100
+maxresilience=Max resilience +10
+speed=Speed +20%
+swimspeed=Swim speed +45%
+
 [mob]
 armadillo_pet=Domesticated Armadillo
 axolotl_pet=Domesticated Axolotl

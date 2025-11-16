@@ -1,4 +1,11 @@
 ------------------------------------------------------
+Mod version 2.5 for game version 1.0.2 | 2025-11-16
+------------------------------------------------------
+
+Add French translation (thanks @CaranudLapin)
+Add missing item category translations
+
+------------------------------------------------------
 Mod version 2.4 for game version 1.0.1 | 2025-10-19
 ------------------------------------------------------
 
