@@ -44,7 +44,7 @@ public class ModEntryPoint {
         BeaverPetMob.texture = GameTexture.fromFile("mobs/beaver_pet");
         BeaverPetMob.hasMultipleSprites = false;
 
-        BeetPetMob.texture = MobRegistry.Textures.beetCaveCroppler.body;
+        BeetPetMob.texture = MobRegistry.Textures.beetCroppler.body;
         BeetPetMob.hasMultipleSprites = true;
 
         CalfPetMob.texture = MobRegistry.Textures.calf;
